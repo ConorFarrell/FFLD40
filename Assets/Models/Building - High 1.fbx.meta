@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 025ddbfc0088e412d9a768f46a2fce9e
-timeCreated: 1512246705
+guid: 202d8d4d2ccf1407499c0b6a59b3ac2e
+timeCreated: 1512256209
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -22,16 +22,14 @@ ModelImporter:
     4300000: Windows
     4300002: Roof
     4300004: Walls
-    7400000: Default Take
-    9500000: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material
-    second: {fileID: 2100000, guid: 35db19b659a594ab4b8aaee442547331, type: 2}
+    second: {fileID: 2100000, guid: 6ed60704e10a14224ad852960039c028, type: 2}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -62,10 +60,10 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    importVisibility: 0
+    importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -81,8 +79,8 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-    normalCalculationMode: 0
-  importAnimation: 0
+    normalCalculationMode: 4
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
@@ -98,7 +96,7 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
