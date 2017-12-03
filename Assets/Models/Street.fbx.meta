@@ -1,22 +1,27 @@
 fileFormatVersion: 2
 guid: c24b9c9ddee8f4bce812f4f0eb27d4ad
-timeCreated: 1512256895
+timeCreated: 1512325172
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Plane
-    100002: //RootNode
-    100004: Stripes
-    400000: Plane
-    400002: //RootNode
-    400004: Stripes
-    2300000: Plane
-    2300002: Stripes
-    3300000: Plane
-    3300002: Stripes
-    4300000: Stripes
-    4300002: Plane
+    100000: //RootNode
+    100002: sidewalk
+    100004: street
+    100006: stripes
+    400000: //RootNode
+    400002: sidewalk
+    400004: street
+    400006: stripes
+    2300000: sidewalk
+    2300002: street
+    2300004: stripes
+    3300000: sidewalk
+    3300002: street
+    3300004: stripes
+    4300000: sidewalk
+    4300002: stripes
+    4300004: street
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -52,7 +57,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.05
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -69,7 +74,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
